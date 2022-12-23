@@ -1,6 +1,6 @@
 /** @format */
 type Button$1 = {
-    string: string;
+    string?: string;
 };
 declare const Button$1: ({ string }: Button$1) => JSX.Element;
 

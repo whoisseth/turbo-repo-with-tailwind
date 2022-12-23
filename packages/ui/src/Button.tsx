@@ -3,7 +3,7 @@
 import * as React from "react";
 
 type Button = {
-  string: string;
+  string?: string;
 };
 
 export const Button = ({ string }: Button) => {
